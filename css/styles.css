@@ -67,14 +67,17 @@ h2 {
 /* Create a format for elements within all h3 headings in the HTML structure */
 h3 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     color: #1bbeff;
 }
 
-/* Format all <p> or paragraph tags so that the line spacing is double */
-/* p {
-    line-height: 2;
-} */
+/* 
+ * SIDE NOTE:
+ * Format all <p> or paragraph tags so that the line spacing is double 
+ *  p {
+ *      line-height: 2;
+ *  } 
+ */
 
 /* Color the text for the anchor tag at the bottom of the webpage */
 a {
@@ -105,10 +108,10 @@ a {
 
 /* Top cloud attributes (contained in the "top-container" div) */
 .top-cloud {
-    width: 200px;
+    width: 15%;
     position: absolute;
-    right: 200px;
-    top: 70px;
+    right: 10%;
+    top: 10%;
 }
 
 /* Format the inserted forest image at the top of the website */
@@ -121,19 +124,11 @@ a {
 
 /* Bottom cloud attributes (contained in the "top-container" div) */
 .bottom-cloud {
-    width: 200px;
+    width: 15%;
     position: absolute;
-    left: 200px;
-    bottom: 450px;
+    left: 10%;
+    bottom: 50%;
 }
-
-/* 
- * -- Blue square (for reference only right now) --
- * .middle-container {
- *      NO CONTENT FOR NOW 
- * 
- * }
- */
 
  /* Format the div containing Andrew's profile information */
 .profile {
@@ -147,15 +142,8 @@ a {
 .profile-pic {
     width: 50%;
     position: relative;
-    margin: 25%, auto, 25%, auto; /* FIXME */
+    margin: 25%, auto, 25%, auto;
 }
-
-/* 
- *  -- Red square (for reference only right now) --
- * .bottom-container {
- *   /* NO CONTENT FOR NOW 
- * }
- */
 
 /********************** Skills Section Images **********************/
 
@@ -184,10 +172,11 @@ a {
     margin-left: 30px;
 }
 
-/* AN EXAMPLE OF USING clear ON YOUR WEBPAGE
-.c-pic-description {
-    clear: right;
-}
+/* 
+ * AN EXAMPLE OF USING clear ON YOUR WEBPAGE
+ * .c-pic-description {
+ *      clear: right;
+ * }
 */
 
 /* Format the picture of the LaTeX text editor icon. */
@@ -233,7 +222,7 @@ a {
 /* Format the <p> tag positioning, which contains conatct information */
 .contact-message {
     width: 40%;
-    /* 40 pixels from the top, auto for left and right, 60 pixels from the bottom */
+    /* NOTE: 40 pixels from the top, auto for left and right, 60 pixels from the bottom */
     margin: 40px auto 50px;
 }
 
@@ -268,16 +257,16 @@ a {
  
  /* The HOVER feature of the contact button is formatted here */
  .contact-button:hover {
-    /*border: solid #00E0FF 20px;*/
+    /* border: solid #00E0FF 20px; */
     background: #00E0FF;
-    /*background-image: -webkit-linear-gradient(top, #00E0FF, #00E0FF);
+    /* background-image: -webkit-linear-gradient(top, #00E0FF, #00E0FF);
     background-image: -moz-linear-gradient(top, #00E0FF, #00E0FF);
     background-image: -ms-linear-gradient(top, #00E0FF, #00E0FF);
     background-image: -o-linear-gradient(top, #00E0FF, #00E0FF);
-    background-image: -webkit-gradient(to bottom, #00E0FF, #00E0FF);*/
-    /*-webkit-border-radius: 20px;
+    background-image: -webkit-gradient(to bottom, #00E0FF, #00E0FF);
+    -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-    border-radius: 20px;*/
+    border-radius: 20px; */
     text-decoration: none;
  }
 
@@ -342,7 +331,7 @@ a {
     color: #EAF6F6;
 }
 
-/*  */
+/* Format the text used to attribute the authors of images you used. */
 .attribution-text {
     font-size: 10px;
     text-decoration: none;
