@@ -32,7 +32,7 @@ h1 {
     /*margin-bottom: 5px;*/
     font-family: 'Source Code Pro', monospace;
     font-size: 5.625rem;
-    color: #109dee;
+    color: #002E99;
 
     /* 
      * SIDE NOTE:
@@ -61,14 +61,14 @@ h1 {
 h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 2.5rem;
-    color: #109dee;
+    color: #002E99;
 }
 
 /* Create a format for elements within all h3 headings in the HTML structure */
 h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
-    color: #1bbeff;
+    color: #002E99;
 }
 
 /* 
@@ -81,7 +81,7 @@ h3 {
 
 /* Color the text for the anchor tag at the bottom of the webpage */
 a {
-    color: #1bbeff;
+    color: #002E99;
 }
 
 /******************************* CLASS SELECTORS *******************************/
@@ -99,11 +99,6 @@ a {
 /* Make the section of text "a programmer" have a heavy font weight */
 .subtitle {
     font-weight: bolder;
-}
-
-/* Underline the portion of "pro" in "programmer" */
-.pro {
-    text-decoration: underline;
 }
 
 /* Top cloud attributes (contained in the "top-container" div) */
@@ -247,8 +242,8 @@ a {
     font-size: 25px;
     font-weight: 0;
     padding: 30px;
-    background-color: #109DEE;
-    border: solid #109DEE 3px;
+    background-color: #002E99;
+    border: none;
     text-decoration: none;
     display: block;
     cursor: pointer;
@@ -257,13 +252,12 @@ a {
  
  /* The HOVER feature of the contact button is formatted here */
  .contact-button:hover {
-    /* border: solid #00E0FF 20px; */
-    background: #00E0FF;
-    /* background-image: -webkit-linear-gradient(top, #00E0FF, #00E0FF);
-    background-image: -moz-linear-gradient(top, #00E0FF, #00E0FF);
-    background-image: -ms-linear-gradient(top, #00E0FF, #00E0FF);
-    background-image: -o-linear-gradient(top, #00E0FF, #00E0FF);
-    background-image: -webkit-gradient(to bottom, #00E0FF, #00E0FF);
+    background: #0B57A8;
+    /* background-image: -webkit-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -moz-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -ms-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -o-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -webkit-gradient(to bottom, #0B57A8, #0B57A8);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px; */
@@ -286,12 +280,12 @@ a {
     margin-right: 50px;
     text-decoration: none;
     font-size: 20px;
-    color: #109dee;
+    color: #002E99;
 }
 
  /* The HOVER feature of the linkedin link is formatted here */
  .footer-link-linkedin:hover {
-    color: #EAF6F6;
+    color: #0B57A8;
 }
 
 /* Format the github link; HOVER feature below in pseudo class */
@@ -300,12 +294,12 @@ a {
     margin-right: 50px;
     text-decoration: none;
     font-size: 20px;
-    color: #109dee;
+    color: #002E99;
 }
 
  /* The HOVER feature of the github link is formatted here */
  .footer-link-github:hover {
-    color: #EAF6F6;
+    color: #0B57A8;
 }
 
 /* Format the website link; HOVER feature below in pseudo class */
@@ -313,12 +307,12 @@ a {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    color: #109dee;
+    color: #002E99;
 }
 
  /* The HOVER feature of the website link is formatted here */
  .footer-link-website:hover {
-    color: #EAF6F6;
+    color: #0B57A8;
 }
 
 /* Include attributions for the images used on the website */
@@ -328,7 +322,7 @@ a {
     margin: 50px auto;
     font-size: 10px;
     line-height: 1;
-    color: #EAF6F6;
+    color: #000000;
 }
 
 /* Format the text used to attribute the authors of images you used. */
@@ -340,7 +334,7 @@ a {
 /* Format the <p> tag with the text inside of the bottom-container div */
 .copyright-text {
     text-align: center;
-    color: #EAF6F6;
+    color: #000000;
     /*padding: 20px 0; */
 }
 
