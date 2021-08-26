@@ -280,7 +280,7 @@ a {
 /* Format the linkedin link; HOVER feature below in pseudo class */
 .footer-link-linkedin {
     text-align: center;
-    margin-right: 50px;
+    margin-right: 25px;
     text-decoration: none;
     font-size: 20px;
     color: #002E99;
@@ -294,7 +294,7 @@ a {
 /* Format the github link; HOVER feature below in pseudo class */
 .footer-link-github {
     text-align: center;
-    margin-right: 50px;
+    margin-left: 25px;
     text-decoration: none;
     font-size: 20px;
     color: #002E99;
@@ -303,6 +303,10 @@ a {
  /* The HOVER feature of the github link is formatted here */
  .footer-link-github:hover {
     color: #0B57A8;
+}
+
+.center-web-links {
+    text-align: center;
 }
 
 /* Format the website link; HOVER feature below in pseudo class */
