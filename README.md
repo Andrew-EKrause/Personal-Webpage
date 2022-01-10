@@ -1,6 +1,5 @@
 # *Personal Webpage*
-## View the Project Here
-### https://krause2023.github.io/Personal-Webpage/
+## **[View my Personal Webpage Here](https://krause2023.github.io/Personal-Webpage/)**
 
 <p>&nbsp;</p>
 
