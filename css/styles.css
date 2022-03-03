@@ -324,19 +324,6 @@ a {
     text-align: center;
 }
 
-/* Format the website link; HOVER feature below in pseudo class */
-.footer-link-website {
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    color: #002E99;
-}
-
- /* The HOVER feature of the website link is formatted here */
- .footer-link-website:hover {
-    color: #0B57A8;
-}
-
 /* Include attributions for the images used on the website */
 .image-attributions {
     text-align: center;
