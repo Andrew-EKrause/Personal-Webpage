@@ -286,8 +286,8 @@ a {
     color: #002E99;
 }
 
- /* The HOVER feature of the linkedin link is formatted here */
- .footer-link-linkedin:hover {
+/* The HOVER feature of the linkedin link is formatted here */
+.footer-link-linkedin:hover {
     color: #0B57A8;
 }
 
@@ -300,8 +300,22 @@ a {
     color: #002E99;
 }
 
- /* The HOVER feature of the github link is formatted here */
- .footer-link-github:hover {
+/* The HOVER feature of the github link is formatted here */
+.footer-link-github:hover {
+    color: #0B57A8;
+}
+
+/* Format the newer website link; HOVER feature below in pseudo class */
+.footer-link-website {
+    text-align: center;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #002E99;
+}
+
+ /* The HOVER feature of the newer website link is formatted here */
+ .footer-link-website:hover {
     color: #0B57A8;
 }
 
