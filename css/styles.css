@@ -1,0 +1,359 @@
+/*  
+ * This is an external CSS file that styles an HTML file
+ * using different selectors. The CSS file makes use of the 
+ * class feature for HTML tags that are the same type. The
+ * class feature enables the CSS to differentiate between
+ * the tags that are the same type and style them in unique
+ * ways. This CSS file is more complex for the HTML file it
+ * is styling, and makes use of divs to help structure the 
+ * webpage.
+ *
+ * Author: Andrew Krause
+ * Date: 06/30/2021
+ *
+ */
+
+/******************************* TAG SELECTORS *******************************/
+
+/* Create a margin for the body of the HTML structure */
+body {
+    /* Make the margin around the background HTML element in within the body zero */
+    margin: 0;
+    /* Center the HTML elements like the headings in the body  */
+    text-align: center;
+    /* Use the font family of Merriweather for the text in the body of your HTML */
+    font-family: 'Merriweather', serif; 
+    color: #40514E;
+}
+
+/* Create a format for elements within all h1 headings in the HTML structure */
+h1 {
+    margin: 50px auto 0px auto;
+    /*margin-bottom: 5px;*/
+    font-family: 'Source Code Pro', monospace;
+    font-size: 5.625rem;
+    color: #002E99;
+
+    /* 
+     * SIDE NOTE:
+     * Use the margin attribute to change the positioning of your
+     * h1 heading on the page. The dimensions are as follows: 
+     * left, top, right, bottom => (margin: 0 auto 0 auto)
+     */
+    
+    /* 
+     * SIDE NOTE:
+     * We could also just specify that the left and right are 0
+     * to center and that the top and bottom are auto using the
+     * the following line of code: (margin: 0 auto)
+     */
+
+    /* 
+     * SIDE NOTE:
+     * margin-left: 0px;
+     * margin-right: 0px;
+     * margin-top: 0px;
+     * margin-bottom: 0px;
+     */
+}
+
+/* Create a format for elements within all h2 headings in the HTML structure */
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #002E99;
+}
+
+/* Create a format for elements within all h3 headings in the HTML structure */
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: #002E99;
+}
+
+/* 
+ * SIDE NOTE:
+ * Format all <p> or paragraph tags so that the line spacing is double 
+ *  p {
+ *      line-height: 2;
+ *  } 
+ */
+
+/* Color the text for the anchor tag at the bottom of the webpage */
+a {
+    color: #002E99;
+}
+
+/******************************* CLASS SELECTORS *******************************/
+
+/* 
+ * The top container is a large blue background on the top of the website 
+ * contained with in the body of the HTML structure
+ */
+.top-container {
+    background-color: #00e0ff;
+    position: relative;
+    padding-top: 150px;
+}
+
+/* Make the section of the subtitle text have a heavy font weight */
+.subtitle {
+    font-weight: bolder;
+    text-align: center; 
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* Top cloud attributes (contained in the "top-container" div) */
+.top-cloud {
+    width: 15%;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+/* Format the inserted forest image at the top of the website */
+.forest-img {
+    width: 500px;
+    position: relative;
+    width: 40%;
+    top: 6px;
+}
+
+/* Bottom cloud attributes (contained in the "top-container" div) */
+.bottom-cloud {
+    width: 15%;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+}
+
+ /* Format the div containing Andrew's profile information */
+.profile {
+    width: 30%;
+    margin: 90px auto 90px auto;
+    line-height: 2;
+}
+
+
+/* Format your profile picture  */
+.profile-pic {
+    width: 50%;
+    position: relative;
+    margin: 25%, auto, 25%, auto;
+}
+
+/********************** Skills Section Images **********************/
+
+/* Format the skill rows; ensure that the content is centered on screen */
+.skill-row {
+    width: 50%;
+    /* Having the width be 50% and the margin be auto will center the content on the webpage */
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Format the picture of the Java language icon. */
+.java-pic {
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Format the picture of the C-Programming language icon. */
+.c-pic {
+    width: 25%;
+    position: relative;
+    float: right;
+    margin-left: 30px;
+}
+
+/* 
+ * AN EXAMPLE OF USING clear ON YOUR WEBPAGE
+ * .c-pic-description {
+ *      clear: right;
+ * }
+*/
+
+/* Format the picture of the LaTeX text editor icon. */
+.latex-pic {
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Format the picture of the Command Line icon. */
+.command-pic {
+    width: 25%; /* ==> The row that the picture is in is its parent */
+    position: relative;
+    float: right;
+    margin-left: 30px;
+}
+
+/* Format the picture of the HTML language icon. */
+.html-pic {
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Format the picture of the CSS language icon. */
+.css-pic {
+    width: 25%;
+    position: relative;
+    /* The float feature positions text to a specified position on the side of an image */
+    float: right;
+    margin-left: 30px;
+}
+
+/********************** Skills Section Images **********************/
+
+/* Format the "contact-me" div on the website */
+.contact-me {
+    line-height: 2;
+}
+
+/* Format the <p> tag positioning, which contains conatct information */
+.contact-message {
+    width: 40%;
+    /* NOTE: 40 pixels from the top, auto for left and right, 60 pixels from the bottom */
+    margin: 40px auto 50px;
+}
+
+/* Format for the river and mountains image */
+.river-pic {
+    width: 15%;
+    position: relative;
+    bottom: 5px;
+}
+
+/* Create a contact button for the user; HOVER feature below in pseudo class */
+.contact-button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 30px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 175px;
+    margin: 50px auto 50px auto;
+    font-size: 25px;
+    font-weight: 0;
+    padding: 30px;
+    background-color: #002E99;
+    border: none;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ /* The HOVER feature of the contact button is formatted here */
+ .contact-button:hover {
+    background: #0B57A8;
+    /* background-image: -webkit-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -moz-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -ms-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -o-linear-gradient(top, #0B57A8, #0B57A8);
+    background-image: -webkit-gradient(to bottom, #0B57A8, #0B57A8);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; */
+    text-decoration: none;
+ }
+
+/* The bottom div is used for formatting the contact information */
+.bottom-container {
+    background-color: #00e0ff;
+    position: relative;  
+    padding-top: 75px;
+    padding-bottom: 20px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+/* Format the linkedin link; HOVER feature below in pseudo class */
+.footer-link-linkedin {
+    text-align: center;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #002E99;
+}
+
+ /* The HOVER feature of the linkedin link is formatted here */
+ .footer-link-linkedin:hover {
+    color: #0B57A8;
+}
+
+/* Format the github link; HOVER feature below in pseudo class */
+.footer-link-github {
+    text-align: center;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #002E99;
+}
+
+ /* The HOVER feature of the github link is formatted here */
+ .footer-link-github:hover {
+    color: #0B57A8;
+}
+
+.center-web-links {
+    text-align: center;
+}
+
+/* Format the website link; HOVER feature below in pseudo class */
+.footer-link-website {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #002E99;
+}
+
+ /* The HOVER feature of the website link is formatted here */
+ .footer-link-website:hover {
+    color: #0B57A8;
+}
+
+/* Include attributions for the images used on the website */
+.image-attributions {
+    text-align: center;
+    text-decoration: none;
+    margin: 50px auto;
+    font-size: 10px;
+    line-height: 1;
+    color: #000000;
+}
+
+/* Format the text used to attribute the authors of images you used. */
+.attribution-text {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+/* Format the <p> tag with the text inside of the bottom-container div */
+.copyright-text {
+    text-align: center;
+    color: #000000;
+    /*padding: 20px 0; */
+}
+
+/* Format the <hr> tag so that it displays a dotted line as a content seperator */
+.dotted-line {
+    border-style: none;
+    border-top: 8px dotted lightgrey;
+    height: 0;
+    width: 5%;
+    margin: 90px auto 90px auto;
+}
+
+/******************************* ID SELECTORS *******************************/
+
+/* NONE CURRENTLY */
