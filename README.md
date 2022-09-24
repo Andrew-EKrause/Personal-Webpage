@@ -1,7 +1,10 @@
 # *Personal Webpage*
-## **[View my Personal Webpage Here](https://krause2023.github.io/Personal-Webpage/)**
+## **[View my Personal Webpage Here](https://andrew-ekrause.github.io/Personal-Webpage/)**
 
 <p>&nbsp;</p>
+
+###### Home Page of Personal Webpage
+<img width="1680" alt="Screen Shot 2022-09-08 at 12 43 00 AM" src="https://user-images.githubusercontent.com/57727121/189043649-63d38266-c9b8-4ded-9b14-4ccb511b57b9.png">
 
 ## Description
 **_Personal Website to Help Showcase my Skill Set_** <br/>
@@ -16,6 +19,7 @@ This project is my first personal webpage that was published online through the 
 
 **_@Author: Andrew Krause_** <br/>
 *LinkedIn:* https://www.linkedin.com/in/andrew-krause-b6aa21179/ <br/>
+*Portfolio:* https://andrewkrause.dev/ <br/>
 *Instagram:* https://www.instagram.com/aek.krause/ <br/>
 *Facebook:* https://www.facebook.com/andrew.krause.35325
 
